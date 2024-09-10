@@ -1,0 +1,73 @@
+{
+  "name": "Route guard",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mld.ng/",
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@mui/styled-engine": "^5.16.6",
+    "@mui/system": "^5.16.7",
+    "@mui/x-date-pickers": "^7.13.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "ag-grid-community": "^32.1.0",
+    "ag-grid-react": "^32.1.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.12",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.4.6",
+    "notiflix": "^3.2.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.10.4",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.26.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
+    "web-vitals": "^2.1.2",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  },
+  "description": "![mld edit](https://user-images.githubusercontent.com/43953425/212030864-cf3aa272-e070-4e1b-8e25-f488ca56873e.png)",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
+}

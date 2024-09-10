@@ -1,0 +1,109 @@
+.driver-details {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-card, .table-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-card {
+    background-color: #f9f9f9;
+}
+
+.table-card {
+    background-color: #fff;
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ag-theme-alpine {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ag-theme-alpine .ag-header {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.ag-theme-alpine .ag-cell {
+    padding: 10px;
+}
+
+.ag-theme-alpine .ag-row {
+    border-bottom: 1px solid #ddd;
+}
+
+.actions button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.actions button:hover {
+    background-color: #218838;
+}
+
+.actions button:nth-of-type(2) {
+    background-color: #dc3545;
+}
+
+.actions button:nth-of-type(2):hover {
+    background-color: #c82333;
+}

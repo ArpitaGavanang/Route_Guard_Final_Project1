@@ -1,0 +1,31 @@
+.custom-navbar-toggle {
+    border: none;
+  }
+  
+  /* Ensure Navbar content aligns to the right */
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .styling{
+   
+      font-family: 'Peralta', cursive;
+      
+  }
+  .text-underline:hover{
+text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      padding: 10px 0;
+    }
+  }
